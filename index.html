@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HomeFixNZ – Auckland Home Repairs & Painting</title>
+  <meta name="description" content="Professional home repairs, painting and carpentry in Auckland. Available evenings and weekends. Call or WhatsApp 027 528 0716.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- LANG BAR -->
+<div class="lang-bar">
+  <button class="lang-btn" onclick="toggleLang()">中文</button>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">Home<span>Fix</span>NZ</div>
+  <ul class="nav-links">
+    <li><a href="#services" data-en="Services" data-cn="服务项目">Services</a></li>
+    <li><a href="#why"      data-en="Why Us"   data-cn="为什么选我们">Why Us</a></li>
+    <li><a href="#areas"    data-en="Areas"    data-cn="服务区域">Areas</a></li>
+    <li><a href="#contact"  class="nav-cta" data-en="Get a Quote" data-cn="免费报价">Get a Quote</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-blob"></div>
+  <div class="hero-content">
+    <div class="hero-badge"
+         data-en="Auckland's Trusted Home Repair Specialist"
+         data-cn="奥克兰专业房屋维修服务">
+      Auckland's Trusted Home Repair Specialist
+    </div>
+    <h1>HOME<span>FIX</span>NZ</h1>
+    <p class="hero-sub"
+       data-en="Professional repairs, painting & carpentry for Auckland homes.<br>Available evenings & weekends — we work around your schedule."
+       data-cn="专业房屋维修、油漆粉刷和木工装修<br>傍晚和周末均可预约，灵活配合您的时间">
+      Professional repairs, painting &amp; carpentry for Auckland homes.<br>
+      Available evenings &amp; weekends — we work around your schedule.
+    </p>
+    <p class="hero-sub-cn"
+       data-en="2+ years experience · Reliable · Affordable"
+       data-cn="2年以上经验 · 可靠专业 · 价格合理">
+      2+ years experience · Reliable · Affordable
+    </p>
+    <div class="hero-btns">
+      <a href="https://wa.me/64275280716" class="btn-primary"
+         data-en="💬 WhatsApp Us" data-cn="💬 WhatsApp 联系">💬 WhatsApp Us</a>
+      <a href="tel:0275280716" class="btn-secondary"
+         data-en="📞 027 528 0716" data-cn="📞 027 528 0716">📞 027 528 0716</a>
+    </div>
+  </div>
+</section>
+
+<!-- STATS STRIP -->
+<div class="stats">
+  <div class="stat-item">
+    <div class="stat-num">2+</div>
+    <div class="stat-label" data-en="Years Experience" data-cn="年从业经验">Years Experience</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">4</div>
+    <div class="stat-label" data-en="Areas Covered" data-cn="服务区域">Areas Covered</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">7</div>
+    <div class="stat-label" data-en="Days Available" data-cn="天可预约">Days Available</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">100%</div>
+    <div class="stat-label" data-en="Satisfaction Goal" data-cn="满意度目标">Satisfaction Goal</div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="center">
+    <div class="section-title" data-en="Our <span>Services</span>" data-cn="我们的<span>服务项目</span>">
+      Our <span>Services</span>
+    </div>
+    <p class="section-sub"
+       data-en="Quality workmanship across all home repair needs"
+       data-cn="全方位房屋维修，专业品质保证">
+      Quality workmanship across all home repair needs
+    </p>
+  </div>
+  <div class="services-grid">
+
+    <div class="service-card">
+      <span class="service-icon">🔧</span>
+      <h3>General Repairs
+        <small data-en="一般房屋维修" data-cn="General Repairs">一般房屋维修</small>
+      </h3>
+      <ul class="service-list">
+        <li data-en="Door & window repairs"       data-cn="门窗维修">Door &amp; window repairs</li>
+        <li data-en="Lock replacement"            data-cn="锁具更换">Lock replacement</li>
+        <li data-en="Minor leak fixes"            data-cn="小型漏水修复">Minor leak fixes</li>
+        <li data-en="Shelf & fixture installation" data-cn="搁架安装">Shelf &amp; fixture installation</li>
+        <li data-en="Tile repair & grouting"      data-cn="瓷砖修复">Tile repair &amp; grouting</li>
+      </ul>
+    </div>
+
+    <div class="service-card">
+      <span class="service-icon">🎨</span>
+      <h3>Painting &amp; Decorating
+        <small data-en="油漆粉刷" data-cn="Painting & Decorating">油漆粉刷</small>
+      </h3>
+      <ul class="service-list">
+        <li data-en="Interior painting"       data-cn="室内油漆">Interior painting</li>
+        <li data-en="Exterior painting"       data-cn="室外油漆">Exterior painting</li>
+        <li data-en="Feature walls"           data-cn="特色墙面">Feature walls</li>
+        <li data-en="Trim & skirting boards"  data-cn="踢脚线粉刷">Trim &amp; skirting boards</li>
+        <li data-en="Preparation & patching"  data-cn="墙面修补">Preparation &amp; patching</li>
+      </ul>
+    </div>
+
+    <div class="service-card">
+      <span class="service-icon">🪵</span>
+      <h3>Carpentry &amp; Fit-out
+        <small data-en="木工装修" data-cn="Carpentry & Fit-out">木工装修</small>
+      </h3>
+      <ul class="service-list">
+        <li data-en="Shelving & storage"     data-cn="置物架安装">Shelving &amp; storage</li>
+        <li data-en="Deck repairs"           data-cn="木台修复">Deck repairs</li>
+        <li data-en="Fence repairs"          data-cn="围栏修复">Fence repairs</li>
+        <li data-en="Furniture assembly"     data-cn="家具组装">Furniture assembly</li>
+        <li data-en="Minor renovation work"  data-cn="小型装修工程">Minor renovation work</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="why" class="why-section">
+  <div class="center">
+    <div class="section-title" data-en="Why Choose <span>Us</span>" data-cn="为什么选择<span>我们</span>">
+      Why Choose <span>Us</span>
+    </div>
+    <p class="section-sub" style="color:rgba(255,255,255,0.5)"
+       data-en="Honest, reliable and professional every time"
+       data-cn="每次服务都诚实可靠、专业到位">
+      Honest, reliable and professional every time
+    </p>
+  </div>
+  <div class="why-grid">
+    <div class="why-card">
+      <div class="why-icon">🕐</div>
+      <h4>Flexible Hours
+        <small data-en="灵活预约时间" data-cn="Flexible Hours">灵活预约时间</small>
+      </h4>
+      <p data-en="Available evenings & weekends. No need to take time off work."
+         data-cn="傍晚和周末均可上门，不影响您的工作日安排。">
+        Available evenings &amp; weekends. No need to take time off work.
+      </p>
+    </div>
+    <div class="why-card">
+      <div class="why-icon">💰</div>
+      <h4>Fair Pricing
+        <small data-en="合理收费" data-cn="Fair Pricing">合理收费</small>
+      </h4>
+      <p data-en="Transparent quotes upfront. No hidden fees or surprises."
+         data-cn="报价清晰透明，无隐藏费用，价格公道。">
+        Transparent quotes upfront. No hidden fees or surprises.
+      </p>
+    </div>
+    <div class="why-card">
+      <div class="why-icon">⭐</div>
+      <h4>2+ Years Experience
+        <small data-en="2年以上专业经验" data-cn="2+ Years Experience">2年以上专业经验</small>
+      </h4>
+      <p data-en="Experienced in NZ homes. Quality work you can trust."
+         data-cn="熟悉新西兰本地房屋结构，工作质量有保障。">
+        Experienced in NZ homes. Quality work you can trust.
+      </p>
+    </div>
+    <div class="why-card">
+      <div class="why-icon">🤝</div>
+      <h4>Bilingual Service
+        <small data-en="中英双语服务" data-cn="Bilingual Service">中英双语服务</small>
+      </h4>
+      <p data-en="We speak English and Mandarin. Easy communication every time."
+         data-cn="提供中英文服务，华人客户无沟通障碍。">
+        We speak English and Mandarin. Easy communication every time.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- AREAS -->
+<section id="areas" class="areas-section">
+  <div class="center">
+    <div class="section-title" data-en="Service <span>Areas</span>" data-cn="服务<span>区域</span>">
+      Service <span>Areas</span>
+    </div>
+    <p class="section-sub"
+       data-en="Covering most of Auckland — just not South Auckland"
+       data-cn="覆盖奥克兰大部分区域（南区除外）">
+      Covering most of Auckland — just not South Auckland
+    </p>
+    <div class="areas-grid">
+      <div class="area-pill" data-en="North Shore"      data-cn="北岸">North Shore</div>
+      <div class="area-pill" data-en="West Auckland"    data-cn="西区">West Auckland</div>
+      <div class="area-pill" data-en="Central Auckland" data-cn="中区">Central Auckland</div>
+      <div class="area-pill" data-en="East Auckland"    data-cn="东区">East Auckland</div>
+    </div>
+    <p style="margin-top:24px; color:var(--gray); font-size:14px; font-weight:600;"
+       data-en="Not sure if we cover your area? Just send us a message!"
+       data-cn="不确定是否覆盖您的区域？直接发消息问我们！">
+      Not sure if we cover your area? Just send us a message!
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-box">
+    <div class="section-title" data-en="Get a Free <span>Quote</span>" data-cn="免费<span>报价</span>">
+      Get a Free <span>Quote</span>
+    </div>
+    <p style="color:var(--gray); font-size:15px; font-weight:600; margin-top:8px;"
+       data-en="Reach out via phone or WhatsApp — we'll get back to you quickly!"
+       data-cn="电话或WhatsApp联系我们，我们会尽快回复！">
+      Reach out via phone or WhatsApp — we'll get back to you quickly!
+    </p>
+    <div class="contact-methods">
+      <a href="tel:0275280716" class="contact-btn phone">
+        📞 <span data-en="Call: 027 528 0716" data-cn="致电: 027 528 0716">Call: 027 528 0716</span>
+      </a>
+      <a href="https://wa.me/64275280716" class="contact-btn whatsapp">
+        💬 <span data-en="WhatsApp: 027 528 0716" data-cn="WhatsApp: 027 528 0716">WhatsApp: 027 528 0716</span>
+      </a>
+    </div>
+    <p class="contact-note"
+       data-en="⏰ Available evenings (after 6pm) & all weekend"
+       data-cn="⏰ 傍晚6点后及周末均可联系">
+      ⏰ Available evenings (after 6pm) &amp; all weekend
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 <span>HomeFixNZ</span> · Auckland, New Zealand · <span>027 528 0716</span></p>
+  <p style="margin-top:6px; font-size:12px;"
+     data-en="Serving North Shore · West Auckland · Central Auckland · East Auckland"
+     data-cn="服务范围：北岸 · 西区 · 中区 · 东区">
+    Serving North Shore · West Auckland · Central Auckland · East Auckland
+  </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
